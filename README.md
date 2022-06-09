@@ -13,25 +13,25 @@ tells the user whether they "won"
 
 ### Requirements
 
-    - The system must ask the user for an integer between 0 and 10.
-    - The system must generate a random number between 0 and 10.
-    - If the user's number is greater than the system's generated number, then
-      the user wins.
-    - Otherwise, the system wins.
-    - The system must inform the user who won.
-    - The system must display an error message if the user's input is not in the
-      desired range.
-    - The system must display an error message if the user's input is not a
-      number.
-    - Let the user choose game "level" - tell the user what each level means:
-      - Easy: guess a number - program will tell you if it was higher or equal
-        (you win) or lower (computer wins) than the program's number.
-      - Medium: guess a number - program will tell you if it was strictly higher
-        (you win) or lower or equal (computer wins) than the program's number.
-      - Hard: guess a number - program will tell you if it was equal (you win)
-        or not (you lose) to the program's number.
-      - Store each game level “explanation message” in an array and use the
-        level indicated by the user to index into the array.
+- The system must ask the user for an integer between 0 and 10.
+- The system must generate a random number between 0 and 10.
+- If the user's number is greater than the system's generated number, then
+  the user wins.
+- Otherwise, the system wins.
+- The system must inform the user who won.
+- The system must display an error message if the user's input is not in the
+  desired range.
+- The system must display an error message if the user's input is not a
+  number.
+- Let the user choose game "level" - tell the user what each level means:
+  - Easy: guess a number - program will tell you if it was higher or equal
+    (you win) or lower (computer wins) than the program's number.
+  - Medium: guess a number - program will tell you if it was strictly higher
+    (you win) or lower or equal (computer wins) than the program's number.
+  - Hard: guess a number - program will tell you if it was equal (you win)
+    or not (you lose) to the program's number.
+  - Store each game level “explanation message” in an array and use the
+    level indicated by the user to index into the array.
 
 ### Stretch goals
 
